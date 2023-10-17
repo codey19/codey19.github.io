@@ -1,7 +1,9 @@
 import About from './components/About';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
+import CodingProjects from './components/CodingProjects';
+import CookingProjects from './components/CookingProjects';
+import GamingProjects from './components/GamingProjects';
 import Skills from './components/Skills';
 
 const App = () => {
@@ -11,7 +13,9 @@ const App = () => {
       <Hero />
       <Skills />
       <About />
-      <Projects />
+      <CodingProjects />
+      <CookingProjects />
+      <GamingProjects />
     </>
   );
 };
