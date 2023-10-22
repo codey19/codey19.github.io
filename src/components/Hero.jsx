@@ -13,7 +13,7 @@ const Hero = () => {
             Senior<span className='font-bold text-yellow-600'>@</span>South Brunswick High, NJ
           </p>
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-            Proudly Enrolled in Computer Science Academy
+            Proudly Enrolled in <span className='font-bold'>Computer Science Academy</span>
           </p>
           <div className='flex gap-x-4 mt-4'>
             <a href='#'>

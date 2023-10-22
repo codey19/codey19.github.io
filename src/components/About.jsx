@@ -10,7 +10,7 @@ const About = () => {
         <article>
           <SectionTitle text='About Me' className='bg-emerald-100' />
           <p className='text-slate-600 mt-8 leading-loose'>
-           I'm a senior in South Brunswick High School. I like gaming, coding, and cooking :-)
+           I'm a senior in South Brunswick High School. I enjoy gaming, coding, and cooking :-)
           </p>
           <BackTopLink />          
         </article>
