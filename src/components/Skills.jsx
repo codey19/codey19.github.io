@@ -1,6 +1,8 @@
 import { skills } from '../data';
 import SectionTitle from './SectionTitle';
 import SkillsCard from './SkillsCard';
+import { BackTopLink } from './BackTopLink';
+
 const Skills = () => {
   return (
     <section className='py-20 bg-emerald-50 align-element ' id='skills'>
@@ -10,6 +12,7 @@ const Skills = () => {
           return <SkillsCard key={skill.id} {...skill} />;
         })}
       </div>
+      <BackTopLink />          
     </section>
   );
 };
