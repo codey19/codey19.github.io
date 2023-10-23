@@ -21,26 +21,31 @@ export const skills = [
     id: nanoid(),
     title: 'Java',
     icon: <FaJava className='h-16 w-16 text-emerald-500' />,
-    courseList: ['Computer Science in The 21st Century', 'AP Computer Science', 'Mobile App Development'],
+    courseList: ['Computer Science in The 21st Century', 
+                  'AP Computer Science A', 
+                  'Mobile App Development', 
+                  'Data Structures'],
   },
   {
     id: nanoid(),
     title: 'CSharp',
     icon: <SiCsharp className='h-16 w-16 text-emerald-500' />,
-    courseList: ['Virtual Reality & Game Design'],
+    courseList: ['Virtual Reality & Game Design', 
+                  'Hobby'],
   },
   {
     id: nanoid(),
     title: 'Unity',
     icon: <UnityIcon />,
-    courseList: ['Virtual Reality & Game Design'],
+    courseList: ['Virtual Reality & Game Design', 
+                  'Hobby'],
   },
   {
     id: nanoid(),
     title: 'C++',
     // icon: <SiCplusplus className='h-16 w-16 text-emerald-500' />,
     icon: <Cplusplus />,
-    courseList: ['Data Structure'],
+    courseList: ['Computer Science Capstone'],
   },
   {
     id: nanoid(),
@@ -71,18 +76,18 @@ export const codingProjects = [
     url: "#",
     github: "https://github.com/codey19/codey19.github.io",    
     tech: " Javascript & React",
-    text: "This is a learning project in Udemy on web-frontend development.",
+    text: "A learning project in Udemy: web-frontend development using React.",
   },
   {
     id: nanoid(),
     img: "",
     // vedio: "src/assets/survival-of-the-fittest.mp4",
     vedio: "https://www.youtube.com/watch?v=IGN6bssnb-k",
-    title: "Survival of the Fittest",
+    title: "Autonomous Agent",
     url: "",
-    github: "https://github.com/codey19/balls",    
-    tech: "C++ & Rayplayer",
-    text: "This is a course project of <Data Structure>.",
+    github: "https://github.com/codey19/raylib-autoa-agent",    
+    tech: "C++ & Raylib",
+    text: "A course project (Computer Science Capstone).",
   },
   {
     id: nanoid(),
@@ -92,7 +97,8 @@ export const codingProjects = [
     url: "http://cqs-unity-balls.servegame.org/",
     github: "https://github.com/codey19/balls",    
     tech: "Unity with C# & WebGl build",
-    text: "This a course project of <Virtual Reality & Game Design>.",
+    text: "A course project (Virtual Reality & Game Design). Use key WASD to move " 
+          + "the cloud to catch the falling rain drops to grow the cloud.",
   },
   {
     id: nanoid(),
@@ -102,7 +108,9 @@ export const codingProjects = [
     url: "http://cqs-unity-cannon.servegame.org/",
     github: "https://github.com/codey19/cannon",    
     tech: "Unity with C# & WebGl build",
-    text: "This a course project of <Virtual Reality & Game Design>.",
+    text: "A course project (Virtual Reality & Game Design). Use use arrow key to move " 
+        + "the cannon up and down and use SPACE key to fire the assortment of farm animals to knock "
+        + "over the items on the plane.",
   },
   {
     id: nanoid(),
@@ -112,7 +120,9 @@ export const codingProjects = [
     url: "http://cqs-unity-gravity.servegame.org/",
     github: "https://github.com/codey19/gravity",    
     tech: "Unity with C# & WebGl build",
-    text: "This a course project of <Virtual Reality & Game Design>.",
+    text: "A course project (Virtual Reality & Game Design). This is an infinite runner. Use key AD to " 
+          + "move the ball left and right to avoid the obstacles. Use key SPACE to jump over the obstacles. "
+          + "Use E to invert the gravity.",
   },
   {
     id: nanoid(),
@@ -122,7 +132,8 @@ export const codingProjects = [
     url: "http://cqs-unity-gyro.servegame.org/",
     github: "https://github.com/codey19/gyro",    
     tech: "Unity with C# & WebGl build",
-    text: "This a course project of <Virtual Reality & Game Design>.",
+    text: "A course project (Virtual Reality & Game Design). Use key WASD to move the skeleton and attack "
+          + "with mouse left click to defeat the dark knight.",
   },
   {
     id: nanoid(),
@@ -132,17 +143,31 @@ export const codingProjects = [
     url: "http://cqs-unity-mac2d.servegame.org/",
     github: "https://github.com/codey19/mac2d",    
     tech: "Unity with C# & WebGl build",
-    text: "This a course project of <Virtual Reality & Game Design>.",
+    text: "A hobby project. Use key WASD and SPACE to navigate the 2D world to slay King Macbeth on top "
+      + "of the castle. Move only when Macbeth is turned/when the \"Green Light\" sign appears. Move "
+      + "outside that time window, get killed by Macbeth. Respawn with SPACE."
   },
+  // {
+  //   id: nanoid(),
+  //   img: "src/assets/Mac2dUnityWebgl.jpg",
+  //   vedio: "", 
+  //   title: "Star Force",
+  //   url: "http://cqs-unity-mac2d.servegame.org/",
+  //   github: "https://github.com/codey19/mac2d",    
+  //   tech: "Unity with C# & WebGl build",
+  //   text: "A course project. Use arrow keys to move to left and right. Use SPACE key to shoot missles. "
+  //         +  "Hit enemy spaceship to gain points. "
+  // }, 
   {
     id: nanoid(),
     img: "src/assets/FlappyBird.jpg",
     vedio: "", 
     title: 'Flappy Bird',
-    url: 'http://flappy-bird-race-gs.servegame.org/',
+    url: 'http://cqs-flappy-bird-race-gs.servegame.org/',
     github: "https://github.com/codey19/flappybird",
     tech: "Javascript & phaser 3",
-    text: 'This is a Udemy learning project.'
+    text: "A Udemy learning project. Use SPACE key to make the bird (the purple squre) jump to avoid "
+         + "obstacles. You score everytime you pass an obstacle. "
   }
 ];
 
@@ -154,7 +179,9 @@ export const cookingProjects = [
     title: 'Reverse-Seared Steak',
     url: 'https://www.seriouseats.com/reverse-seared-steak-recipe/',
     github: "",
-    text: "Season a roast or a thick-cut steak, arrange the meat on a wire rack set in a rimmed baking sheet, and place it in a low oven—between 200 and 275°F. Cook it until it's about 10 to 15°F below your desired serving temperature, then take it out and sear it in a ripping-hot skillet.",
+    text: "Season a roast or a thick-cut steak, arrange the meat on a wire rack set in a rimmed baking sheet, "
+        + "and place it in a low oven—between 200 and 275°F. Cook it until it's about 10 to 15°F below your "
+        + "desired serving temperature, then take it out and sear it in a ripping-hot skillet.",
   },
   {
     id: nanoid(),
@@ -164,7 +191,10 @@ export const cookingProjects = [
     title: 'Stir Fried Flat Rice Noodle',
     url: 'https://redhousespice.com/beef-chow-fun/',
     github: "",
-    text: "Quickly fry the beef in oil. Transfer out as soon as it turns pale. In the remaining oil, stir fry sa-ho fun using a pair of chopsticks. Add in beansprouts & onion slices. Cook them for a short period of time to retain their crispiness. Finally stir in the beef, Chinese chive and the seasoning. Dish out as soon as everything is evenly coated with the sauce.",
+    text: "Quickly fry the beef in oil. Transfer out as soon as it turns pale. In the remaining oil, stir fry "
+          + "sa-ho fun using a pair of chopsticks. Add in beansprouts & onion slices. Cook them for a short "
+          + "period of time to retain their crispiness. Finally stir in the beef, Chinese chive and the "
+          + "seasoning. Dish out as soon as everything is evenly coated with the sauce.",
   }
 ];
 
@@ -173,9 +203,9 @@ export const favoriteGames = [
     id: nanoid(),
     img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5iuap2W8WNiSILEpXqyjuDq4nHKO3waw3e3vK3tyv5jxxyYRCci_Fitvyh4KnHL88zvU&usqp=CAU',
     vedio: "", 
-    title: 'Stick Empire War II',
-    url: 'https://www.gameflare.com/online-game/stick-war-ii-order-empire/',
+    title: 'Clash Royale',
+    url: 'https://supercell.com/en/games/clashroyale/',
     github: "",
-    text: "Get some gold, use your skills and defeat your enemies. Use your soldier to make sure you win. This game is mostly about tactics. You can train new soldiers and create a really strong line of defense. Make sure your enemy can't control your territory!",
+    text: "",
   }
 ];
