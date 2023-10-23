@@ -81,7 +81,6 @@ export const codingProjects = [
   {
     id: nanoid(),
     img: "",
-    // vedio: "src/assets/survival-of-the-fittest.mp4",
     vedio: "https://www.youtube.com/watch?v=IGN6bssnb-k",
     title: "Autonomous Agent",
     url: "",
