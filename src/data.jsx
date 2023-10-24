@@ -65,78 +65,28 @@ export const skills = [
     icon: <PhaserIcon />, 
     courseList: ['Hobby'],
   },
+  {
+    id: nanoid(),
+    title: 'React',
+    icon: <FaReact className='h-16 w-16 text-emerald-500' />, 
+    courseList: ['Hobby'],
+  },
 ];
 
 export const codingProjects = [
   {
     id: nanoid(),
-    img: "src/assets/this-project.jpg",
+    img: "assets/this-project.jpg",
     vedio: "",
     title: "This Website - My Portfolio",
     url: "#",
     github: "https://github.com/codey19/codey19.github.io",    
-    tech: " Javascript & React",
-    text: "A learning project in Udemy: web-frontend development using React.",
+    tech: " Javascript & React & Tailwind CSS",
+    text: "A hobby project from Udemy: web-frontend development using React.",
   },
   {
     id: nanoid(),
-    img: "",
-    vedio: "https://www.youtube.com/watch?v=IGN6bssnb-k",
-    title: "Autonomous Agent",
-    url: "",
-    github: "https://github.com/codey19/raylib-autoa-agent",    
-    tech: "C++ & Raylib",
-    text: "A course project (Computer Science Capstone).",
-  },
-  {
-    id: nanoid(),
-    img: "src/assets/BallsUnityWebgl.jpg",
-    vedio: "", 
-    title: "Balls",
-    url: "http://cqs-unity-balls.servegame.org/",
-    github: "https://github.com/codey19/balls",    
-    tech: "Unity with C# & WebGl build",
-    text: "A course project (Virtual Reality & Game Design). Use key WASD to move " 
-          + "the cloud to catch the falling rain drops to grow the cloud.",
-  },
-  {
-    id: nanoid(),
-    img: "src/assets/CannonUnityWebgl.jpg",
-    vedio: "", 
-    title: "Cannon",
-    url: "http://cqs-unity-cannon.servegame.org/",
-    github: "https://github.com/codey19/cannon",    
-    tech: "Unity with C# & WebGl build",
-    text: "A course project (Virtual Reality & Game Design). Use use arrow key to move " 
-        + "the cannon up and down and use SPACE key to fire the assortment of farm animals to knock "
-        + "over the items on the plane.",
-  },
-  {
-    id: nanoid(),
-    img: "src/assets/GravityGuyUnityWebgl.jpg",
-    vedio: "", 
-    title: "Gravity Guy",
-    url: "http://cqs-unity-gravity.servegame.org/",
-    github: "https://github.com/codey19/gravity",    
-    tech: "Unity with C# & WebGl build",
-    text: "A course project (Virtual Reality & Game Design). This is an infinite runner. Use key AD to " 
-          + "move the ball left and right to avoid the obstacles. Use key SPACE to jump over the obstacles. "
-          + "Use E to invert the gravity.",
-  },
-  {
-    id: nanoid(),
-    img: "src/assets/GyroUnityWebgl.jpg",
-    vedio: "", 
-    title: "Gyro",
-    url: "http://cqs-unity-gyro.servegame.org/",
-    github: "https://github.com/codey19/gyro",    
-    tech: "Unity with C# & WebGl build",
-    text: "A course project (Virtual Reality & Game Design). Use key WASD to move the skeleton and attack "
-          + "with mouse left click to defeat the dark knight.",
-  },
-  {
-    id: nanoid(),
-    img: "src/assets/Mac2dUnityWebgl.jpg",
+    img: "assets/Mac2dUnityWebgl.jpg",
     vedio: "", 
     title: "Mac2D",
     url: "http://cqs-unity-mac2d.servegame.org/",
@@ -146,9 +96,79 @@ export const codingProjects = [
       + "of the castle. Move only when Macbeth is turned/when the \"Green Light\" sign appears. Move "
       + "outside that time window, get killed by Macbeth. Respawn with SPACE."
   },
+  {
+    id: nanoid(),
+    img: "assets/FlappyBird.jpg",
+    vedio: "", 
+    title: 'Flappy Bird',
+    url: 'http://cqs-flappyclone.servegame.org/',
+    github: "https://github.com/codey19/flappybird",
+    tech: "Javascript & phaser 3",
+    text: "A hobby project from Udemy. Use SPACE key to make the bird (the purple squre) jump to avoid "
+         + "obstacles. You score everytime you pass an obstacle. "
+  },
+  {
+    id: nanoid(),
+    img: "",
+    vedio: "assets/autonomous_agent.mp4",
+    // vedio: "https://www.youtube.com/watch?v=IGN6bssnb-k",
+    title: "Autonomous Agent",
+    url: "",
+    github: "https://github.com/codey19/raylib-autoa-agent",    
+    tech: "C++ & Raylib",
+    text: "A school course project (Computer Science Capstone). This is an simulation of evolution. "
+        + "After each 30 second period, the individual improves its traits or mutates if it's in the  "
+        + " vicinity of a different type of individual.",
+  },
+  {
+    id: nanoid(),
+    img: "assets/BallsUnityWebgl.jpg",
+    vedio: "", 
+    title: "Balls",
+    url: "http://cqs-unity-balls.servegame.org/",
+    github: "https://github.com/codey19/balls",    
+    tech: "Unity with C# & WebGl build",
+    text: "A school course project (Virtual Reality & Game Design). Use key WASD to move " 
+          + "the cloud to catch the falling rain drops to grow the cloud.",
+  },
+  {
+    id: nanoid(),
+    img: "assets/CannonUnityWebgl.jpg",
+    vedio: "", 
+    title: "Cannon",
+    url: "http://cqs-unity-cannon.servegame.org/",
+    github: "https://github.com/codey19/cannon",    
+    tech: "Unity with C# & WebGl build",
+    text: "A school course project (Virtual Reality & Game Design). Use use arrow key to move " 
+        + "the cannon up and down and use SPACE key to fire the assortment of farm animals to knock "
+        + "over the items on the plane.",
+  },
+  {
+    id: nanoid(),
+    img: "assets/GravityGuyUnityWebgl.jpg",
+    vedio: "", 
+    title: "Gravity Guy",
+    url: "http://cqs-unity-gravity.servegame.org/",
+    github: "https://github.com/codey19/gravity",    
+    tech: "Unity with C# & WebGl build",
+    text: "A school course project (Virtual Reality & Game Design). This is an infinite runner. Use key AD to " 
+          + "move the ball left and right to avoid the obstacles. Use key SPACE to jump over the obstacles. "
+          + "Use E to invert the gravity.",
+  },
+  {
+    id: nanoid(),
+    img: "assets/GyroUnityWebgl.jpg",
+    vedio: "", 
+    title: "Gyro",
+    url: "http://cqs-unity-gyro.servegame.org/",
+    github: "https://github.com/codey19/gyro",    
+    tech: "Unity with C# & WebGl build",
+    text: "A school course project (Virtual Reality & Game Design). Use key WASD to move the skeleton and attack "
+          + "with mouse left click to defeat the dark knight.",
+  },
   // {
   //   id: nanoid(),
-  //   img: "src/assets/Mac2dUnityWebgl.jpg",
+  //   img: "assets/Mac2dUnityWebgl.jpg",
   //   vedio: "", 
   //   title: "Star Force",
   //   url: "http://cqs-unity-mac2d.servegame.org/",
@@ -157,17 +177,6 @@ export const codingProjects = [
   //   text: "A course project. Use arrow keys to move to left and right. Use SPACE key to shoot missles. "
   //         +  "Hit enemy spaceship to gain points. "
   // }, 
-  {
-    id: nanoid(),
-    img: "src/assets/FlappyBird.jpg",
-    vedio: "", 
-    title: 'Flappy Bird',
-    url: 'http://cqs-flappy-bird-race-gs.servegame.org/',
-    github: "https://github.com/codey19/flappybird",
-    tech: "Javascript & phaser 3",
-    text: "A Udemy learning project. Use SPACE key to make the bird (the purple squre) jump to avoid "
-         + "obstacles. You score everytime you pass an obstacle. "
-  }
 ];
 
 export const cookingProjects = [
@@ -184,7 +193,7 @@ export const cookingProjects = [
   },
   {
     id: nanoid(),
-    // img:  "src/assets/Stir-Fried-He-Fen.jpg",
+    // img:  "assets/Stir-Fried-He-Fen.jpg",
     img: "https://redhousespice.com/wp-content/uploads/2019/08/Beef-chow-fun-by-Red-House-Spice-3.jpg",
     vedio: "", 
     title: 'Stir Fried Flat Rice Noodle',
@@ -200,7 +209,7 @@ export const cookingProjects = [
 export const favoriteGames = [
   {
     id: nanoid(),
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5iuap2W8WNiSILEpXqyjuDq4nHKO3waw3e3vK3tyv5jxxyYRCci_Fitvyh4KnHL88zvU&usqp=CAU',
+    img: 'https://i.ytimg.com/vi/uWsQ5IWVilM/maxresdefault.jpg',
     vedio: "", 
     title: 'Clash Royale',
     url: 'https://supercell.com/en/games/clashroyale/',

@@ -11,7 +11,7 @@ const ProjectsCard = ({ url, img, vedio, github, title, tech, text }) => {
           width="380px"
           height="200px"
           loop="false"
-          playing="false"
+          playing="true"
         />
       }
       { img && 
