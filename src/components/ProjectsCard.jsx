@@ -26,25 +26,28 @@ const ProjectsCard = ({ url, img, vedio, github, title, tech, text }) => {
       }
       <div className='p-8'>
         <a href={url} target='_blank'>
-        <div className='mt-4 flex gap-x-4'>
-          <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
-          { github && 
-            <a href={github} target='_blank'> 
-              <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-red-600 duration-100' />
-            </a>
-          }
-        </div>
+          <div className='mt-4 flex gap-x-4'>
+            <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
+          </div>
           <p className='mt-4 text-slate-700 leading-loose'>{tech}</p>
           <p className='mt-4 text-slate-700 leading-loose'>{text}</p>
         </a>
-          <div className='mt-4 flex gap-x-4 text-emerald-500 hover:text-red-600 duration-100'>
-            { url && 
+        <div className='mt-4 flex gap-x-4 text-emerald-500 hover:text-red-600 duration-100'>
+          { url && 
                 <a href={url} target='_blank'> 
                   <TbWorldWww className='h-8 w-8  hover:text-red-600 duration-100' />        
                 </a> 
-            }
-            { url && <b>Click N'Play</b> }
-          </div>
+          }
+          { url && <a href={url} target='_blank'><b>Click N'Play</b></a> }
+        </div>
+        <div className='mt-4 flex gap-x-4 text-emerald-500 hover:text-red-600 duration-100'>
+          { github && 
+            <a href={github} target='_blank'> 
+              <FaGithubSquare className='h-8 w-8  hover:text-red-600 duration-100' />
+            </a>
+          }
+          { github && <a href={github} target='_blank'><b>Checkout Code</b></a> }
+        </div>
       </div>
     </article>
   );
