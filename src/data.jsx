@@ -84,6 +84,7 @@ export const codingProjects = [
     vedio: "",
     title: "This Website",
     url: "",
+    urlAction: "",
     github: "https://github.com/codey19/codey19.github.io",    
     tech: " Javascript & React & Tailwind CSS",
     text: "A hobby project from Udemy: web-frontend development using React.",
@@ -94,6 +95,7 @@ export const codingProjects = [
     vedio: "", 
     title: "Mac2D",
     url: "http://cqs-unity-mac2d.servegame.org/",
+    urlAction: "Click N'Play",
     github: "https://github.com/codey19/mac2d",    
     tech: "Unity with C# & WebGl build",
     text: "A hobby project. Use key WASD and SPACE to navigate the 2D world to slay King Macbeth on top "
@@ -106,6 +108,7 @@ export const codingProjects = [
     vedio: "", 
     title: 'Flappy Bird',
     url: 'http://cqs-flappyclone.servegame.org/',
+    urlAction: "Click N'Play",
     github: "https://github.com/codey19/flappybird",
     tech: "Javascript & phaser 3",
     text: "A hobby project from Udemy. Use SPACE key to make the bird (the purple squre) jump to avoid "
@@ -117,6 +120,7 @@ export const codingProjects = [
     vedio: "https://youtu.be/Md7V1rM0CT4",
     title: "Autonomous Agent",
     url: "",
+    urlAction: "",
     github: "https://github.com/codey19/raylib-autoa-agent",    
     tech: "C++ & Raylib",
     text: "A school course project (Computer Science Capstone). This is a simulation of evolution. "
@@ -129,6 +133,7 @@ export const codingProjects = [
     vedio: "", 
     title: "Balls",
     url: "http://cqs-unity-balls.servegame.org/",
+    urlAction: "Click N'Play",
     github: "https://github.com/codey19/balls",    
     tech: "Unity with C# & WebGl build",
     text: "A school course project (Virtual Reality & Game Design). Use key WASD to move " 
@@ -140,6 +145,7 @@ export const codingProjects = [
     vedio: "", 
     title: "Cannon",
     url: "http://cqs-unity-cannon.servegame.org/",
+    urlAction: "Click N'Play",
     github: "https://github.com/codey19/cannon",    
     tech: "Unity with C# & WebGl build",
     text: "A school course project (Virtual Reality & Game Design). Use use arrow key to move " 
@@ -152,6 +158,7 @@ export const codingProjects = [
     vedio: "", 
     title: "Gravity Guy",
     url: "http://cqs-unity-gravity.servegame.org/",
+    urlAction: "Click N'Play",
     github: "https://github.com/codey19/gravity",    
     tech: "Unity with C# & WebGl build",
     text: "A school course project (Virtual Reality & Game Design). This is an infinite runner. Use key AD to " 
@@ -164,6 +171,7 @@ export const codingProjects = [
     vedio: "", 
     title: "Gyro",
     url: "http://cqs-unity-gyro.servegame.org/",
+    urlAction: "Click N'Play",
     github: "https://github.com/codey19/gyro",    
     tech: "Unity with C# & WebGl build",
     text: "A school course project (Virtual Reality & Game Design). Use key WASD to move the skeleton and attack "
@@ -189,6 +197,7 @@ export const cookingProjects = [
     vedio: "", 
     title: 'Reverse-Seared Steak',
     url: 'https://www.seriouseats.com/reverse-seared-steak-recipe/',
+    urlAction: "more......",
     github: "",
     text: "Season a roast or a thick-cut steak, arrange the meat on a wire rack set in a rimmed baking sheet, "
         + "and place it in a low oven—between 200 and 275°F. Cook it until it's about 10 to 15°F below your "
@@ -201,6 +210,7 @@ export const cookingProjects = [
     vedio: "", 
     title: 'Stir Fried Flat Rice Noodle',
     url: 'https://redhousespice.com/beef-chow-fun/',
+    urlAction: "more......",
     github: "",
     text: "Quickly fry the beef in oil. Transfer out as soon as it turns pale. In the remaining oil, stir fry "
           + "sa-ho fun using a pair of chopsticks. Add in beansprouts & onion slices. Cook them for a short "

@@ -3,7 +3,7 @@ import { TbWorldWww } from 'react-icons/tb';
 
 import ReactPlayer from 'react-player';
 
-const ProjectsCard = ({ url, img, vedio, github, title, tech, text }) => {
+const ProjectsCard = ({ url,urlAction, img, vedio, github, title, tech, text }) => {
   return (
     <article className='bg-white rounded-lg shadow-md hover:shadow-xl duration-300'>
       { vedio && 
@@ -38,7 +38,7 @@ const ProjectsCard = ({ url, img, vedio, github, title, tech, text }) => {
                   <TbWorldWww className='h-8 w-8  hover:text-red-600 duration-100' />        
                 </a> 
           }
-          { url && <a href={url} target='_blank'><b>Click N'Play</b></a> }
+          { url && <a href={url} target='_blank'><b>{urlAction}</b></a> }
         </div>
         <div className='mt-4 flex gap-x-4 text-emerald-500 hover:text-red-600 duration-100'>
           { github && 
