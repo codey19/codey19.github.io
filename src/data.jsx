@@ -1,8 +1,6 @@
 import { nanoid } from 'nanoid';
-import { FaJava, FaHtml5, FaJs, FaReact } from 'react-icons/fa';
-import { SiCsharp } from 'react-icons/si'; 
-import { SiFlutter } from 'react-icons/si';
-import { SiCplusplus } from 'react-icons/si';
+import { FaJava, FaJs, FaReact } from 'react-icons/fa';
+import { SiCsharp, SiFlutter, SiTailwindcss, SiCplusplus } from 'react-icons/si'; 
 import PhaserIcon from './assets/PhaserIcon';
 import UnityIcon from './assets/UnityIcon';
 import Cplusplus from './assets/Cplusplus';
@@ -17,36 +15,6 @@ export const links = [
 ];
 
 export const skills = [
-  {
-    id: nanoid(),
-    title: 'Java',
-    icon: <FaJava className='h-16 w-16 text-emerald-500' />,
-    courseList: ['Computer Science in The 21st Century', 
-                  'AP Computer Science A', 
-                  'Mobile App Development', 
-                  'Data Structures'],
-  },
-  {
-    id: nanoid(),
-    title: 'CSharp',
-    icon: <SiCsharp className='h-16 w-16 text-emerald-500' />,
-    courseList: ['Virtual Reality & Game Design', 
-                  'Hobby'],
-  },
-  {
-    id: nanoid(),
-    title: 'Unity',
-    icon: <UnityIcon />,
-    courseList: ['Virtual Reality & Game Design', 
-                  'Hobby'],
-  },
-  {
-    id: nanoid(),
-    title: 'C++',
-    // icon: <SiCplusplus className='h-16 w-16 text-emerald-500' />,
-    icon: <Cplusplus />,
-    courseList: ['Computer Science Capstone'],
-  },
   {
     id: nanoid(),
     title: 'Flutter',
@@ -71,58 +39,93 @@ export const skills = [
     icon: <FaReact className='h-16 w-16 text-emerald-500' />, 
     courseList: ['Hobby'],
   },
+  {
+    id: nanoid(),
+    title: 'Tailwind CSS',
+    icon: <SiTailwindcss className='h-16 w-16 text-emerald-500' />, 
+    courseList: ['Hobby'],
+  },
+ {
+    id: nanoid(),
+    title: 'CSharp',
+    icon: <SiCsharp className='h-16 w-16 text-emerald-500' />,
+    courseList: ['Virtual Reality & Game Design', 
+                  'Hobby'],
+  },
+  {
+    id: nanoid(),
+    title: 'Unity',
+    icon: <UnityIcon />,
+    courseList: ['Virtual Reality & Game Design', 
+                  'Hobby'],
+  },
+  {
+    id: nanoid(),
+    title: 'Java',
+    icon: <FaJava className='h-16 w-16 text-emerald-500' />,
+    courseList: ['Computer Science in The 21st Century', 
+                  'AP Computer Science A', 
+                  'Mobile App Development', 
+                  'Data Structures'],
+  },
+  {
+    id: nanoid(),
+    title: 'C++',
+    // icon: <SiCplusplus className='h-16 w-16 text-emerald-500' />,
+    icon: <Cplusplus />,
+    courseList: ['Computer Science Capstone'],
+  },
 ];
 
 export const codingProjects = [
   {
     id: nanoid(),
-    img: "assets/this-project.jpg",
+    img: "src/assets/this-project.jpg",
     vedio: "",
-    title: "This Website - My Portfolio",
-    url: "#",
+    title: "This Website",
+    url: "",
     github: "https://github.com/codey19/codey19.github.io",    
     tech: " Javascript & React & Tailwind CSS",
     text: "A hobby project from Udemy: web-frontend development using React.",
   },
   {
     id: nanoid(),
-    img: "assets/Mac2dUnityWebgl.jpg",
+    img: "src/assets/Mac2dUnityWebgl.jpg",
     vedio: "", 
     title: "Mac2D",
     url: "http://cqs-unity-mac2d.servegame.org/",
     github: "https://github.com/codey19/mac2d",    
     tech: "Unity with C# & WebGl build",
     text: "A hobby project. Use key WASD and SPACE to navigate the 2D world to slay King Macbeth on top "
-      + "of the castle. Move only when Macbeth is turned/when the \"Green Light\" sign appears. Move "
-      + "outside that time window, get killed by Macbeth. Respawn with SPACE."
+      + "of the castle. Move only when Macbeth is turned when the \"Green Light\" sign appears. Move "
+      + "outside that time window, will get killed by Macbeth. Respawn with key SPACE."
   },
   {
     id: nanoid(),
-    img: "assets/FlappyBird.jpg",
+    img: "src/assets/FlappyBird.jpg",
     vedio: "", 
     title: 'Flappy Bird',
     url: 'http://cqs-flappyclone.servegame.org/',
     github: "https://github.com/codey19/flappybird",
     tech: "Javascript & phaser 3",
     text: "A hobby project from Udemy. Use SPACE key to make the bird (the purple squre) jump to avoid "
-         + "obstacles. You score everytime you pass an obstacle. "
+         + "hitting the bars. You score everytime you pass an bar. "
   },
   {
     id: nanoid(),
     img: "",
-    vedio: "assets/autonomous_agent.mp4",
-    // vedio: "https://www.youtube.com/watch?v=IGN6bssnb-k",
+    vedio: "https://youtu.be/Md7V1rM0CT4",
     title: "Autonomous Agent",
     url: "",
     github: "https://github.com/codey19/raylib-autoa-agent",    
     tech: "C++ & Raylib",
-    text: "A school course project (Computer Science Capstone). This is an simulation of evolution. "
+    text: "A school course project (Computer Science Capstone). This is a simulation of evolution. "
         + "After each 30 second period, the individual improves its traits or mutates if it's in the  "
         + " vicinity of a different type of individual.",
   },
   {
     id: nanoid(),
-    img: "assets/BallsUnityWebgl.jpg",
+    img: "src/assets/BallsUnityWebgl.jpg",
     vedio: "", 
     title: "Balls",
     url: "http://cqs-unity-balls.servegame.org/",
@@ -133,7 +136,7 @@ export const codingProjects = [
   },
   {
     id: nanoid(),
-    img: "assets/CannonUnityWebgl.jpg",
+    img: "src/assets/CannonUnityWebgl.jpg",
     vedio: "", 
     title: "Cannon",
     url: "http://cqs-unity-cannon.servegame.org/",
@@ -145,7 +148,7 @@ export const codingProjects = [
   },
   {
     id: nanoid(),
-    img: "assets/GravityGuyUnityWebgl.jpg",
+    img: "src/assets/GravityGuyUnityWebgl.jpg",
     vedio: "", 
     title: "Gravity Guy",
     url: "http://cqs-unity-gravity.servegame.org/",
@@ -157,7 +160,7 @@ export const codingProjects = [
   },
   {
     id: nanoid(),
-    img: "assets/GyroUnityWebgl.jpg",
+    img: "src/assets/GyroUnityWebgl.jpg",
     vedio: "", 
     title: "Gyro",
     url: "http://cqs-unity-gyro.servegame.org/",
@@ -168,7 +171,7 @@ export const codingProjects = [
   },
   // {
   //   id: nanoid(),
-  //   img: "assets/Mac2dUnityWebgl.jpg",
+  //   img: "src/assets/Mac2dUnityWebgl.jpg",
   //   vedio: "", 
   //   title: "Star Force",
   //   url: "http://cqs-unity-mac2d.servegame.org/",
@@ -193,7 +196,7 @@ export const cookingProjects = [
   },
   {
     id: nanoid(),
-    // img:  "assets/Stir-Fried-He-Fen.jpg",
+    // img:  "src/assets/Stir-Fried-He-Fen.jpg",
     img: "https://redhousespice.com/wp-content/uploads/2019/08/Beef-chow-fun-by-Red-House-Spice-3.jpg",
     vedio: "", 
     title: 'Stir Fried Flat Rice Noodle',
