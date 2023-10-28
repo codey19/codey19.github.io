@@ -14,7 +14,7 @@ const Hero = () => {
             Senior<span className='font-bold text-green-600'>@</span>South Brunswick High, NJ
           </p>
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-            Proudly Enrolled in <span className='font-bold'>Computer Science Academy</span>
+            Proudly Enrolled in <span className='font-bold'>The Computer Science Academy</span>
           </p>
           <div className='mt-4 flex gap-x-4 text-emerald-500 hover:text-red-600 duration-100'>
             <a href="https://github.com/codey19?tab=repositories" target='_blank'> 
