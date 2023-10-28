@@ -13,7 +13,7 @@ const App = () => {
       <Skills />
       <About />
       <Projects title="Fun Coding Projects" projects={codingProjects} background="bg-emerald-50" id="codingProjects"/>
-      <Projects title="Favorite Recipe" projects={cookingProjects} background="bg-emerald-100" id="cookingProjects"/>      
+      <Projects title="Favorite Recipe" projects={cookingProjects} background="bg-white-100" id="cookingProjects"/>      
       <Projects title="Favorite Games"projects={favoriteGames} background="bg-emerald-50" id="favoriteGames"/>
     </>
   );

@@ -11,8 +11,6 @@ const ProjectsCard = ({ url,urlAction, img, vedio, github, title, tech, text }) 
           url={vedio} 
           width="380px"
           height="200px"
-          loop="false"
-          playing="true"
         />
       }
       { img && 
@@ -46,7 +44,7 @@ const ProjectsCard = ({ url,urlAction, img, vedio, github, title, tech, text }) 
               <FaGithubSquare className='h-8 w-8  hover:text-red-600 duration-100' />
             </a>
           }
-          { github && <a href={github} target='_blank'><b>Checkout Code</b></a> }
+          { github && <a href={github} target='_blank'><b>Source Code</b></a> }
         </div>
       </div>
     </article>

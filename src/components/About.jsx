@@ -4,7 +4,7 @@ import { BackTopLink } from './BackTopLink';
 
 const About = () => {
   return (
-    <section className='bg-emerald-100 py-20' id='about'>
+    <section className='bg-white-100 py-20' id='about'>
       <div className='align-element grid md:grid-cols-2 items-center gap-16'>
         <img src={aboutSvg} className='w-full h-64' />
         <article>
